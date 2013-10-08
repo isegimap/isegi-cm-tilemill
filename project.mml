@@ -1,0 +1,177 @@
+{
+  "bounds": [
+    -9.1646,
+    38.7311,
+    -9.156,
+    38.7364
+  ],
+  "center": [
+    -9.1602,
+    38.7332,
+    17
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "facilitysitepointlab",
+    "template_teaser": "{{{NAME}}}",
+    "fields": [
+      "NAME"
+    ]
+  },
+  "minzoom": 15,
+  "maxzoom": 20,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -9.162312074729023,
+        38.73197874784854,
+        -9.158882849502387,
+        38.73497275220095
+      ],
+      "id": "infrastructureservic",
+      "class": "",
+      "Datasource": {
+        "file": "/Volumes/DATA/Google Drive/Masters Classes/GIS Applications (1)/data_map/shapefiles/InfrastructureServiceAreas_1K.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "infrastructureservic"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -9.162310341176424,
+        38.73207238207066,
+        -9.158033778505802,
+        38.735198004316295
+      ],
+      "id": "maintananceponit1k",
+      "class": "",
+      "Datasource": {
+        "file": "/Volumes/DATA/Google Drive/Masters Classes/GIS Applications (1)/data_map/shapefiles/Maintanance_ponit_1K.shp",
+        "id": "maintananceponit1k",
+        "project": "isegi_map",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "maintananceponit1k"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -9.162292695801838,
+        38.732414946674794,
+        -9.159394652744576,
+        38.73455265596853
+      ],
+      "id": "pavementmarkinglines",
+      "class": "",
+      "Datasource": {
+        "file": "/Volumes/DATA/Google Drive/Masters Classes/GIS Applications (1)/data_map/shapefiles/Pavement_Marking_Lines_1K.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "pavementmarkinglines"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -9.161743710771207,
+        38.73269647369245,
+        -9.159778225574655,
+        38.73451393917357
+      ],
+      "id": "pavementmarkingsymbo",
+      "class": "",
+      "Datasource": {
+        "file": "/Volumes/DATA/Google Drive/Masters Classes/GIS Applications (1)/data_map/shapefiles/Pavement_Marking_Symbols_1K.shp",
+        "id": "pavementmarkingsymbo",
+        "project": "isegi_map",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "pavementmarkingsymbo"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -9.161827478218296,
+        38.7329800971777,
+        -9.157681442892441,
+        38.73515036701307
+      ],
+      "id": "poles1k",
+      "class": "",
+      "Datasource": {
+        "file": "/Volumes/DATA/Google Drive/Masters Classes/GIS Applications (1)/data_map/shapefiles/Poles_1K.shp",
+        "id": "poles1k",
+        "project": "isegi_map",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "poles1k"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -9.16242408612811,
+        38.73208563032194,
+        -9.159109099129914,
+        38.734610439285795
+      ],
+      "id": "buildings1k",
+      "class": "",
+      "Datasource": {
+        "file": "/Volumes/DATA/Google Drive/Masters Classes/GIS Applications (1)/data_map/shapefiles/Buildings_1K.shp",
+        "id": "buildings1k",
+        "project": "isegi_map",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "buildings1k"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -9.16209744974745,
+        38.73224038100295,
+        -9.159297633798767,
+        38.73557333454161
+      ],
+      "id": "facilitysitepointlab",
+      "class": "",
+      "Datasource": {
+        "file": "/Volumes/DATA/Google Drive/Masters Classes/GIS Applications (1)/data_map/shapefiles/FacilitySitePoint_Label_1K.shp",
+        "id": "facilitysitepointlab",
+        "project": "isegi_map",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "facilitysitepointlab"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "http://a.tiles.mapbox.com/v3/rusty.map-ag30cy9j.json",
+  "name": "ISEGI CAMPUS MAP",
+  "description": "",
+  "attribution": "",
+  "legend": ""
+}
