@@ -5,8 +5,8 @@
 
 #buildings1k {
 ::shape {
-  line-color:#594;
-  line-width:5;
+  line-color:#e88c0d;
+  line-width:3;
   polygon-opacity:0;
   
 }
@@ -25,35 +25,35 @@
   ::shape {
     marker-allow-overlap:true;
   	[NAME='Cash Point (ATM)'], [NAME='Bank'] {
-    	marker-file: url(maki/bank-24.svg);
+    	marker-file: url(maki/bank-18.svg);
     	marker-fill: #963;
   	}
   	[NAME='Litter'] {
-  	  marker-file: url(maki/waste-basket-24.svg);
+  	  marker-file: url(maki/waste-basket-18.svg);
   	  marker-fill: #963;
   	}
     [NAME='Toilets'] {
-  	  marker-file: url(maki/toilets-24.svg);
+  	  marker-file: url(maki/toilets-18.svg);
   	  marker-fill: #594;
   	}
     [NAME='Library'], [NAME='Book Shop'] {
-  	  marker-file: url(maki/library-24.svg);
+  	  marker-file: url(maki/library-18.svg);
   	  marker-fill: #594;
   	}
     [NAME='Info Desk'] {
-  	  marker-file: url(maki/library-24.svg);
+  	  marker-file: url(maki/library-18.svg);
   	  marker-fill: #594;
   	}
     [NAME='Security'] {
-  	  marker-file: url(maki/police-24.svg);
+  	  marker-file: url(maki/police-18.svg);
   	  marker-fill: #594;
   	}
     [NAME='Coffee Shop'] {
-  	  marker-file: url(maki/cafe-24.svg);
+  	  marker-file: url(maki/cafe-18.svg);
   	  marker-fill: #594;
   	}
     [NAME='Medical Facilities'] {
-  	  marker-file: url(maki/hospital-24.svg);
+  	  marker-file: url(maki/hospital-18.svg);
   	  marker-fill: #f45;
   	}
     	}
